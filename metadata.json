@@ -1,0 +1,6 @@
+{
+  "name": "AI Hospitality Cloud — Aether Enterprise Platform",
+  "description": "AI-powered hospitality cloud solutions, Aether PMS, POS, Channel Manager, Booking Engine, HCM, EMS, and smart analytics for hotels, resorts, chains, travel agencies, and tour operators.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
