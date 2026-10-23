@@ -255,7 +255,7 @@ export const Header: React.FC<HeaderProps> = ({
           <button
             type="button"
             onClick={() => navigateAndClose('/login')}
-            className="inline-flex items-center px-4 py-1.5 rounded-lg bg-[#184E8D] hover:bg-[#123d70] text-xs font-bold text-white transition-colors cursor-pointer whitespace-nowrap shrink-0"
+            className="hidden sm:inline-flex items-center px-4 py-1.5 rounded-lg bg-[#184E8D] hover:bg-[#123d70] text-xs font-bold text-white transition-colors cursor-pointer whitespace-nowrap shrink-0"
           >
             {lang === 'ar' ? 'تسجيل الدخول' : 'Login'}
           </button>
@@ -299,7 +299,7 @@ export const Header: React.FC<HeaderProps> = ({
           </nav>
 
           {/* Dedicated Page URL & Quick Route Switcher */}
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 max-w-full overflow-x-auto">
             <div className="hidden md:flex items-center gap-2 px-2.5 py-1 rounded-md bg-white border border-slate-300 text-slate-800 font-mono text-[11px]">
               <Link2 className="w-3.5 h-3.5 text-[#184E8D] shrink-0" />
               <span className="select-all" data-testid="active-page-url">
